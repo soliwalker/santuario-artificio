@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Pura Luce | Santuario Digitale</title>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@19.0.0",
+    "react-dom/client": "https://esm.sh/react-dom@19.0.0/client",
+    "@google/genai": "https://esm.sh/@google/genai",
+    "react-markdown": "https://esm.sh/react-markdown@9.0.1",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/"
+  }
+}
+</script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+      
+      body {
+        font-family: 'Lora', serif;
+      }
+      h1, h2, h3, .brand {
+        font-family: 'Cinzel', serif;
+      }
+    </style>
+</head>
+<body class="bg-stone-950 text-stone-300 antialiased">
+    <div id="root"></div>
+    <script type="module" src="index.tsx"></script>
+</body>
+</html>
